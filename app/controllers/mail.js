@@ -19,7 +19,6 @@ exports.sendEmail = (req, res) => {
 
     let message = ` 
     <ul>
-    <li> <b>Мероприятие: ${req.body.ivent? req.body.ivent: 'не выбрано'}</b> </li>
     <li> Имя, фамилия: ${req.body.FI}</li>
     <li> Возраст: ${req.body.age}</li>
     <li> Образование: ${req.body.edu}</li>

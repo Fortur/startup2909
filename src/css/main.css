@@ -2,14 +2,12 @@ body {
     font-size: 1rem;
 }
 
-/* Chrome, Safari, Opera */
 @-webkit-keyframes showing {
     0% {
         opacity: 0;
     }
 }
 
-/* Standard syntax */
 @keyframes showing {
     0% {
         opacity: 0;
@@ -22,8 +20,8 @@ body {
 }
 
 .showing {
-    -webkit-animation-name: showing; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    -webkit-animation-name: showing;
+    -webkit-animation-duration: 2s;
     animation-name: showing;
     animation-duration: 2s;
 }
@@ -58,13 +56,15 @@ h1 span, h2 span, h3 span, p span {
     margin-bottom: 0 !important;
 }
 
-.two-block > div > div {
+.overflow-hidden{
     overflow: hidden;
-    max-height: 85vh;
 }
 
+
+
 .two-block img {
-    height: 100%;
+    position: absolute;
+    z-index: -1;
 }
 
 .two-block .position-absolute {
@@ -295,17 +295,17 @@ h5 {
     }
 }
 
-.eight-block{
+.eight-block {
     padding-top: 30vh;
 }
 
-.eight-block img{
+.eight-block img {
     max-height: 40vh;
     width: 100%;
 }
 
 @media screen and (min-width: 1367px) {
-    .eight-block{
+    .eight-block {
         font-size: 2vh;
     }
 }
@@ -355,11 +355,41 @@ h5 {
     margin-top: -2rem;
 }
 
-#formsubmitEnd{
+#formsubmitEnd {
     font-size: 1.2rem;
 }
 
-#roboText{
+#roboText {
     font-size: 1.1rem;
     font-weight: bold;
+}
+
+@media screen and (min-width: 1367px) {
+    p, a, li {
+        font-size: 1.3rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+
+    }
+
+    .fourth-block div h1 {
+        font-size: 10rem;
+        line-height: 5.7rem !important;
+        margin-left: -1.8rem !important;
+        margin-bottom: 3rem;
+    }
+
+    h3 {
+        font-size: 4rem;
+    }
+
+    h4 {
+        font-size: 3rem;
+    }
+
+    h5 {
+        font-size: 3rem;
+    }
 }
