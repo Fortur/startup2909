@@ -56,11 +56,9 @@ h1 span, h2 span, h3 span, p span {
     margin-bottom: 0 !important;
 }
 
-.overflow-hidden{
+.overflow-hidden {
     overflow: hidden;
 }
-
-
 
 .two-block img {
     position: absolute;
@@ -241,7 +239,7 @@ h5 {
     height: auto;
 }
 
-.fourth-block> div> div> div>div  {
+.fourth-block > div > div > div > div {
     border-left: white solid 15px;
     border-right: white solid 15px;
     border-bottom: white solid 30px;
@@ -253,7 +251,7 @@ h5 {
     padding-bottom: 1rem;
 }
 
-.fourth-block .position-absolute{
+.fourth-block .position-absolute {
     width: 100%;
 }
 
@@ -299,10 +297,6 @@ h5 {
     }
 }
 
-.eight-block {
-    padding-top: 30vh;
-}
-
 .eight-block img {
     max-height: 30vh;
     width: 20vh;
@@ -337,7 +331,7 @@ h5 {
 }
 
 .contacts {
-    bottom: 0rem !important;
+    bottom: 0 !important;
     font-size: 1.4rem;
 }
 
