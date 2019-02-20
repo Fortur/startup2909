@@ -26,6 +26,7 @@ exports.sendEmail = (req, res) => {
     <li> Опыт в стартапах: ${req.body.startup}</li>
     <li> Телефон: ${req.body.phone}</li>
     <li> E-mail: ${req.body.email}</li>
+    <li> Тема: ${req.body.theme}</li>
     </ul>
     `;
 

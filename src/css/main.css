@@ -253,6 +253,8 @@ h5 {
 
 .fourth-block .position-absolute {
     width: 100%;
+    max-height: 100%;
+    overflow: hidden;
 }
 
 @media screen and (min-width: 12367px) {
@@ -390,4 +392,12 @@ h5 {
     h5 {
         font-size: 3rem;
     }
+}
+
+.checboxes{
+    margin-left: 16%;
+}
+
+.checboxes p{
+    margin-bottom: 0;
 }
